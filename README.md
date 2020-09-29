@@ -5,16 +5,16 @@ This a sample count down component using react.
 npm install react-sample-countDown-timer --save
 
 # Usage
-...
-import CountDownTimer from 'react-sample-countdown-timer'
-...
-...
-<CountDownTimer 
-From = {20} 
-color={'green'} 
-size ={30} 
-dangerView= {false}  
-/>
+...  
+import CountDownTimer from 'react-sample-countdown-timer'. 
+...  
+...  
+<CountDownTimer   
+From = {20}   
+color={'green'}   
+size ={30}   
+dangerView= {false}    
+/>  
 
 # Options
 
