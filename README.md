@@ -1,25 +1,25 @@
 # react-sample-countDown-timer
-This a sample count down component using react.
+This a sample count down component using react.</br>
 
 # Installation
-npm install react-sample-countDown-timer --save
+npm install react-sample-countDown-timer --save</br>
 
 # Usage
 ...  
-import CountDownTimer from 'react-sample-countdown-timer'. 
-...  
-...  
-<CountDownTimer   
-From = {20}   
-color={'green'}   
-size ={30}   
-dangerView= {false}    
+import CountDownTimer from 'react-sample-countdown-timer' </br>  
+...  </br>
+...  </br>
+<CountDownTimer </br>  
+From = {20}</br>   
+color={'green'}</br>   
+size ={30}</br>   
+dangerView= {false} </br>     
 />  
 
 # Options
 
-'From' -  from where number have to decrement - mandatory
-'color' - color to display the timer
-'size' - font size
-'dangerView' - true| false (if true it will show single number in red color other wise it will show in given color)
+'From' -  from where number have to decrement - mandatory </br> 
+'color' - color to display the timer</br> 
+'size' - font size</br>
+'dangerView' - true| false (if true it will show single number in red color other wise it will show in given color)</br>
 
