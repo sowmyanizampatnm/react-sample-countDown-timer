@@ -1,6 +1,6 @@
 {
   "name": "react-sample-countdown-timer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This is a sample count down component from given value",
   "main": "index.js",
   "scripts": {

@@ -9,12 +9,12 @@ npm install react-sample-countDown-timer --save</br>
 import CountDownTimer from 'react-sample-countdown-timer'</br>
 ...</br>
 const timeOut = (count) => {</br>
-    console.log("count",count);{</br>
-  };{</br>
+    console.log("count",count);</br>
+  };</br>
 ...</br>
-<CountDownTimer</br>  
-From = {20}</br>   
-color={'green'}</br>   
+<CountDownTimer</br> 
+From = {20}</br>
+color={'green'}</br>
 size ={30}</br>   
 dangerView= {false}</br> 
 timeOut={timeOut}</br>
