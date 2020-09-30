@@ -25,6 +25,8 @@ function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
+var interval;
+
 function CountDownTimer(props) {
   var _useState = (0, _react.useState)(props.From),
       _useState2 = _slicedToArray(_useState, 2),
@@ -38,16 +40,22 @@ function CountDownTimer(props) {
   }
 
   (0, _react.useEffect)(function () {
-    var interval = setInterval(function () {
+    if (count === 0) {
+      props.timeOut(count);
+      clearInterval(interval);
+    }
+  }, [count]);
+  (0, _react.useEffect)(function () {
+    interval = setInterval(function () {
       decrementCount();
     }, 1000);
     return function () {
       return clearInterval(interval);
     };
-  });
+  }, []);
   return /*#__PURE__*/_react["default"].createElement("div", {
     style: {
-      color: count < 10 ? props.dangerView ? 'red' : props.color : props.color,
+      color: count < 10 ? props.dangerView ? "#FF0000	" : props.color : props.color,
       fontSize: props.size
     }
   }, count < 10 ? "0" + count : count);

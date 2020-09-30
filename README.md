@@ -8,12 +8,16 @@ npm install react-sample-countDown-timer --save</br>
 ...  
 import CountDownTimer from 'react-sample-countdown-timer'</br>
 ...</br>
+const timeOut = (count) => {</br>
+    console.log("count",count);{</br>
+  };{</br>
 ...</br>
 <CountDownTimer</br>  
 From = {20}</br>   
 color={'green'}</br>   
 size ={30}</br>   
-dangerView= {false}</br>     
+dangerView= {false}</br> 
+timeOut={timeOut}</br>
 />  
 
 # Options
@@ -22,4 +26,4 @@ dangerView= {false}</br>
 'color' - color to display the timer</br> 
 'size' - font size</br>
 'dangerView' - true| false (if true it will show single number in red color other wise it will show in given color)</br>
-
+'timeOut' - method for timeout call back
