@@ -2,7 +2,7 @@
 This a sample count down component using react.</br>
 
 # Installation
-npm install react-sample-countDown-timer --save</br>
+npm install react-sample-countdown-timer --save</br>
 
 # Usage
 ...  
@@ -15,7 +15,7 @@ const timeOut = (count) => {</br>
 <CountDownTimer</br> 
 From = {20}</br>
 color={'green'}</br>
-size ={30}</br>   
+size ={30}</br> 
 dangerView= {false}</br> 
 timeOut={timeOut}</br>
 />  
